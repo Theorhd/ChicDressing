@@ -1,0 +1,224 @@
+[15-Dec-2023 01:58:32 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: L’évènement planifié n’existe pas., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Dec-2023 01:58:40 UTC] Cron reschedule event error for hook: woocommerce_geoip_updater, Error code: invalid_schedule, Error message: L’évènement planifié n’existe pas., Data: {"schedule":"fifteendays","args":[],"interval":1296000}
+[15-Dec-2023 01:58:42 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[05-Jan-2024 11:25:29 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[09-Jan-2024 17:21:11 UTC] Cron reschedule event error for hook: ewww_image_optimizer_relative_migration, Error code: invalid_schedule, Error message: L’évènement planifié n’existe pas., Data: {"schedule":"ewwwio_relative_migration_interval","args":[],"interval":300}
+[09-Jan-2024 17:32:43 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[10-Jan-2024 17:11:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function return__() in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:19
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(326): woocommerce_custom_product_add_to_cart_text('Ajouter au pani...')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('Ajouter au pani...', Array)
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Ajouter au pani...', Object(WC_Product_Simple))
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\templates\loop\add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\theor\\...')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1388): wc_get_template('loop/add-to-car...', Array)
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): woocommerce_template_loop_add_to_cart(Array)
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\template.php(792): require('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\Users\\theor\\...', false)
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#13 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#14 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#15 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\shortcodes.php(433): WC_Shortcodes::products(Array, '', 'products')
+#16 [internal function]: do_shortcode_tag(Array)
+#17 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[products order...')
+#18 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\index.php(26): do_shortcode('[products order...')
+#19 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\theor\\...')
+#20 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-blog-header.php(19): require_once('C:\\Users\\theor\\...')
+#21 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#22 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 19
+[11-Jan-2024 04:47:00 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[16-Jan-2024 14:32:23 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[19-Jan-2024 18:50:04 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[19-Jan-2024 18:52:32 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:27) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[19-Jan-2024 18:52:32 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:27) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:15:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ashe_options() in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:36
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(611): include()
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-blog-header.php(13): require_once('C:\\Users\\theor\\...')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 36
+[22-Jan-2024 13:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ashe_options() in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:36
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(611): include()
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-blog-header.php(13): require_once('C:\\Users\\theor\\...')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 36
+[22-Jan-2024 13:38:57 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:38:58 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:39:27 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:39:27 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:40:13 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:40:13 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 34
+[22-Jan-2024 13:41:08 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:33) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:41:08 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:33) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:41:36 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:33) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 239
+[22-Jan-2024 13:41:36 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:33) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 239
+[22-Jan-2024 13:43:14 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 28
+[22-Jan-2024 13:43:14 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php on line 28
+[22-Jan-2024 13:43:24 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:34) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 239
+[22-Jan-2024 13:43:24 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:34) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 239
+[22-Jan-2024 13:52:17 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:52:17 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:15 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:15 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:17 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:17 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:17 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 13:54:18 UTC] PHP Fatal error:  Cannot redeclare ashe_playfair_font_url() (previously declared in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\chicdressing\functions.php:32) in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\themes\ashe\functions.php on line 235
+[22-Jan-2024 14:16:17 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[23-Jan-2024 17:05:51 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[15-Feb-2024 16:58:53 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(324): init_wysija_cron('')
+#7 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-settings.php(643): do_action('init')
+#10 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-config.php(103): require_once('C:\\Users\\theor\\...')
+#11 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-load.php(50): require_once('C:\\Users\\theor\\...')
+#12 C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-cron.php(46): require_once('C:\\Users\\theor\\...')
+#13 {main}
+  thrown in C:\Users\theor\Local Sites\chic-dressing-ocp7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
